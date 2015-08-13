@@ -1,6 +1,14 @@
 # This is not a blog
 
 
+##Thu Aug 13 13:17:42 MSK 2015
+
+Found knowledge: prefer `git push --force-with-lease` instead of `git push
+--force`.
+
+Thank you, Magit!
+
+
 ##Tue Aug 11 00:49:03 MSK 2015
 
 An awesome collection of small visual game related algorithms:
