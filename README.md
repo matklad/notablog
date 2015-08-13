@@ -3,7 +3,7 @@
 
 ##Thu Aug 13 13:17:42 MSK 2015
 
-Found knowledge: prefer `git push --force-with-lease` instead of `git push
+Found knowledge: always prefer `git push --force-with-lease` to  `git push
 --force`. Nice [explanation](https://developer.atlassian.com/blog/2015/04/force-with-lease/).
 
 Thank you, Magit!
