@@ -1,6 +1,11 @@
 # This is not a blog
 
 
+##Sat Aug 15 00:06:43 MSK 2015
+
+A really nice talk by Crockford: https://www.youtube.com/watch?v=bo36MrBfTk4#t=1135
+
+
 ##Thu Aug 13 13:17:42 MSK 2015
 
 Found knowledge: always prefer `git push --force-with-lease` to  `git push
