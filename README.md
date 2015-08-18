@@ -1,5 +1,19 @@
 # This is not a blog
 
+##Tue Aug 18 10:48:43 MSK 2015
+
+A good intro talk about the Rust programming language, with brilliant Q&A
+section: https://www.youtube.com/watch?v=d1uraoHM8Gg
+
+But two things a missing:
+  * Ergonomics, usability and quality of implementation of the language. They
+    are really high with rust (for example, a story about stability:
+    http://blog.rust-lang.org/2014/10/30/Stability.html)
+  * It's really hard to grasp the rust ownership model from the slides, because it
+    is not what is found in mainstream languages (although C++11 with move
+    semantics goes in this direction). You'll have to write some code to
+    appreciate borrow checker =)
+
 
 ##Sat Aug 15 00:06:43 MSK 2015
 
