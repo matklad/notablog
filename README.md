@@ -1,5 +1,12 @@
 # This is not a blog
 
+
+## Thu Aug 20 10:53:44 MSK 2015
+
+A real paper about servo's experience with Rust
+http://arxiv.org/pdf/1505.07383.pdf
+
+
 ##Tue Aug 18 10:48:43 MSK 2015
 
 A good intro talk about the Rust programming language, with brilliant Q&A
