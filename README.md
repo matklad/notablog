@@ -19,7 +19,7 @@ But two things a missing:
   * It's really hard to grasp the rust ownership model from the slides, because it
     is not what is found in mainstream languages (although C++11 with move
     semantics goes in this direction). You'll have to write some code to
-    appreciate borrow checker =)
+    appreciate the borrow checker =)
 
 
 ##Sat Aug 15 00:06:43 MSK 2015
