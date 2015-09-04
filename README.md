@@ -1,6 +1,12 @@
 # This is not a blog
 
 
+## Fri Sep  4 16:07:09 MSK 2015
+
+Parsing is still a hard task:
+http://tratt.net/laurie/blog/entries/parsing_the_solved_problem_that_isnt
+
+
 ## Thu Aug 20 10:53:44 MSK 2015
 
 A real paper about servo's experience with Rust
