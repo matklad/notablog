@@ -1,5 +1,25 @@
 # This is not a blog
 
+## Sat Sep 12 01:36:05 MSK 2015
+
+Pure evil:
+
+```python
+def eval(expr, var):
+    lam = lambda arg, body: lambda val: eval(
+        body, lambda x: val if x == arg else var(x))
+    app = lambda f, arg: eval(f, var)(eval(arg, var))
+    return locals()[expr['type']](*expr['children'])
+
+print(eval({'type': 'app',
+            'children': [
+                {'type': 'lam',
+                 'children': ['x', {'type': 'var', 'children': ['x']}]},
+                {'type': 'var',
+                 'children': ['y']}]},
+           {'y': 92}.get))
+
+```
 
 ## Fri Sep  4 16:07:09 MSK 2015
 
@@ -18,7 +38,7 @@ http://arxiv.org/pdf/1505.07383.pdf
 A good intro talk about the Rust programming language, with brilliant Q&A
 section: https://www.youtube.com/watch?v=d1uraoHM8Gg
 
-But two things a missing:
+But two things are missing:
   * Ergonomics, usability and quality of implementation of the language. They
     are really high with rust (for example, a story about stability:
     http://blog.rust-lang.org/2014/10/30/Stability.html)
