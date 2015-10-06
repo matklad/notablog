@@ -1,5 +1,13 @@
 # This is not a blog
 
+
+## Tue Oct  6 22:18:52 MSK 2015
+
+Git is awesome:
+http://perl.plover.com/yak/git/
+http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
+
+
 ## Sat Sep 12 01:36:05 MSK 2015
 
 Pure evil:
