@@ -1,6 +1,10 @@
 # This is not a blog
 
 
+## Thu Oct 15 18:54:51 MSK 2015
+
+Just wow! https://github.com/alex/what-happens-when/blob/master/README.rst
+
 ## Tue Oct  6 22:18:52 MSK 2015
 
 Git is awesome:
