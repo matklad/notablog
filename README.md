@@ -1,6 +1,13 @@
 # This is not a blog
 
 
+## Sat Oct 17 00:28:34 MSK 2015
+
+Should definitely try this: https://littleosbook.github.io/
+
+Reminded me a lot of http://nand2tetris.org/
+
+
 ## Thu Oct 15 18:54:51 MSK 2015
 
 Just wow! https://github.com/alex/what-happens-when/blob/master/README.rst
