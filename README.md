@@ -1,5 +1,9 @@
 # This is not a blog
 
+## Fri Oct 23 02:41:48 MSK 2015
+
+The wu wei of programming: https://github.com/servo/servo/commit/8c301c291a210fb75b1b5c4eba928a146578e3e4
+
 
 ## Sat Oct 17 00:28:34 MSK 2015
 
