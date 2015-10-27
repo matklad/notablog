@@ -45,7 +45,7 @@ To recap:
 
   * Create your branch.
   * Write a ton of dirty commits, pushing them to the server ASAP so that your
-    teammates know what your are working on and give early feedback.
+    teammates know what you are working on and give early feedback.
   * Rewrite history with `git rebase -i`, push with `git push
     --force-with-lease` and make a PR.
   * Fix the PR.
