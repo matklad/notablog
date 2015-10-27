@@ -1,5 +1,61 @@
 # This is not a blog
 
+## Tue Oct 27 22:51:33 MSK 2015
+
+Don't fear the --force push.
+
+A clean git history with targeted small commits and meaningful commit messages
+is a great help for understanding the code. You will be able to use `git blame`
+as `show docs` shortcut.
+
+However it is impossible to produce a nice history right away, you'll have to
+use `git rebase -i` or over history rewriting mechanisms. But with history
+rewriting you won't be able to publish your work without `--force` ...
+
+One way out of the trap is to use local branches and never `push` your work
+until you are satisfied with the history. There are huge drawbacks with this
+approach:
+
+  * you changes are stored only on local computer,
+  * your teammates don't know what you are doing,
+  * you **will** change your mind about a good history after the push.
+
+
+The alternative of using `git push --force`, while scary for the beginners, is
+much better in my opinion. Here are a few tips about the `force`:
+
+  * `force` cannot destroy information. All the commits are still on server, so
+    even if you have done something wrong, it is readily revertable.
+
+  * Don't use `--force`, use `--force-with-lease`. It will make sure that you
+    are not accidentally dropping others work.
+
+  * Force push only the branches you own. That is, don't force push to the
+    master branch without the team announcement and agreement and, if your are
+    using an old version of `git`, make sure you are pushing only the current
+    branch (in the old days, git pushed all branches by default).
+
+
+When using force push with pull requests remember that the comments to the
+commits will be lost. So it is better to update PR only once, just before the
+merge, or even to open a follow up PR with a nice history.
+
+
+To recap:
+
+  * Create your branch.
+  * Write a ton of dirty commits, pushing them to the server ASAP so that your
+    teammates know what your are working on and give early feedback.
+  * Rewrite history with `git rebase -i`, push with `git push
+    --force-with-lease` and make a PR.
+  * Fix the PR.
+  * Force push again.
+  * Merge and rejoice.
+
+
+And may the `--force-with-lease` be with you.
+
+
 ## Fri Oct 23 20:44:12 MSK 2015
 
 One more TODO: http://blog.phil-opp.com/rust-os/2015/08/18/multiboot-kernel/
