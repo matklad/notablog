@@ -1,5 +1,19 @@
 # This is not a blog
 
+## Thu Oct 29 16:29:58 MSK 2015
+
+Super duper Emacs plugin for Intellij IDEA:
+https://plugins.jetbrains.com/plugin/7906
+
+It fixes window switching (C-g, C-x 1, C-x 0 work as expected), fixes navigation
+in tree menus (project structure), makes Switcher (C-x b) absolutely awesome and
+adds a ton of editing commands (M-c finally!).
+
+
+Just don't forget to activate Emacs+ keymap after installation :)
+
+Hooray!!
+
 ## Tue Oct 27 22:51:33 MSK 2015
 
 Don't fear the --force push.
