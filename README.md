@@ -1,5 +1,13 @@
 # This is not a blog
 
+## Thu Oct 29 22:26:14 MSK 2015
+
+Achievement unlocked, I am officially a contributor to Rust 1.4 release:
+http://blog.rust-lang.org/2015/10/29/Rust-1.4.html :)
+
+Rust is awesome. Rust community is awesome.
+
+
 ## Thu Oct 29 16:29:58 MSK 2015
 
 Super duper Emacs plugin for Intellij IDEA:
