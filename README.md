@@ -1,5 +1,19 @@
 # This is not a blog
 
+
+## Sun Nov  1 02:45:04 MSK 2015
+
+[Glium](https://github.com/tomaka/glium) is an awesome Rust OpenGL library. It
+has a nice [tutorial](http://tomaka.github.io/glium/book/) (wip) but
+unfortunately it does not yet include a section on using linear algebra
+libraries such as [cgmath](https://github.com/bjz/cgmath-rs) or
+[nalgebra](https://github.com/sebcrozet/nalgebra).
+
+
+I've spent quite some time trying to figure out how to use nalgebra with glium,
+and I don't want you to do the same. So here is a small [example](https://github.com/matklad/bunny).
+
+
 ## Thu Oct 29 22:26:14 MSK 2015
 
 Achievement unlocked, I am officially a contributor to Rust 1.4 release:
