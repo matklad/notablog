@@ -1,5 +1,9 @@
 # This is not a blog
 
+## Wed Nov  4 17:03:50 MSK 2015
+
+This is really close to what I think about programming languages
+http://bruceeckel.github.io/2015/08/29/what-i-do/
 
 ## Sun Nov  1 02:45:04 MSK 2015
 
