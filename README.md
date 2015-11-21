@@ -1,5 +1,9 @@
 # This is not a blog
 
+## Sat Nov 21 05:34:47 MSK 2015
+
+Late night compiler errors: There is no `mio` in `mio`.
+
 ## Wed Nov  4 17:03:50 MSK 2015
 
 This is really close to what I think about programming languages
