@@ -1,5 +1,9 @@
 # This is not a blog
 
+## Fri Dec 11 17:44:11 MSK 2015
+
+http://www.staff.science.uu.nl/~gadda001/goodtheorist/
+
 ## Sat Nov 21 05:34:47 MSK 2015
 
 Late night compiler errors: There is no `mio` in `mio`.
