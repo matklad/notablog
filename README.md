@@ -1,5 +1,11 @@
 # This is not a blog
 
+## Sat Dec 12 17:20:11 MSK 2015
+
+The amount of work I do is absolutely independent of the amount of time I
+allocate for it.
+
+
 ## Fri Dec 11 17:44:11 MSK 2015
 
 http://www.staff.science.uu.nl/~gadda001/goodtheorist/
