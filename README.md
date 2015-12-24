@@ -1,5 +1,11 @@
 # This is not a blog
 
+## Fri Dec 25 02:03:28 MSK 2015
+
+A bad photo of an exceptional data visualisation: https://imgur.com/usWXmhM
+
+A. k. a latency numbers every programmer must know.
+
 ## Sat Dec 12 17:20:11 MSK 2015
 
 The amount of work I do is absolutely independent of the amount of time I
