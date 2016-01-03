@@ -1,5 +1,14 @@
 # This is not a blog
 
+## Sun Jan  3 04:17:56 MSK 2016
+
+Having spend two weaks debugging a strange TCP performance degradation and
+discovering Nagle's algorithms at the end, I can't recommend this strongly
+enough: http://gafferongames.com/networking-for-game-programmers/. I wish I've
+read it two months ago (or when I first stumbled upon a Go series couple of
+years ago) :)
+
+
 ## Fri Dec 25 02:03:28 MSK 2015
 
 A bad photo of an exceptional data visualisation: https://imgur.com/usWXmhM
