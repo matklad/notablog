@@ -1,5 +1,11 @@
 # This is not a blog
 
+## Fri Jan  8 00:52:59 MSK 2016
+
+I've just realized that to become a daemon, one should kill one's father and
+grandfather. Makes perfect sense :)
+
+
 ## Sun Jan  3 04:17:56 MSK 2016
 
 Having spend two weaks debugging a strange TCP performance degradation and
