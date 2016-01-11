@@ -1,5 +1,13 @@
 # This is not a blog
 
+## Mon Jan 11 17:43:03 MSK 2016
+
+I think one of the most compelling features of Emacs is its universal text
+user interface. And one of the main features of the interface is the absense of
+modal dialogs. Seriously, modal dialogs kill the flow, because their placement
+is totally unpredictable.
+
+
 ## Fri Jan  8 00:52:59 MSK 2016
 
 I've just realized that to become a daemon, one should kill one's father and
