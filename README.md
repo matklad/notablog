@@ -1,5 +1,22 @@
 # This is not a blog
 
+## Thu Jan 28 11:45:45 MSK 2016
+
+It dawned on me that
+
+1. GCC is implemented in C++
+2. Clang is implemented in C++
+3. HotSpot is implemented in C++
+4. Python is implemented in C
+5. Ruby is implemeted in C
+6. V8 is implemented in C++
+7. PHP is implemented in C
+
+I don't know what language is .NET implemented in, but I guess that significant
+part of it is C++.
+
+I hope Rust will change it in several decades =)
+
 ## Mon Jan 11 17:43:03 MSK 2016
 
 I think one of the most compelling features of Emacs is its universal text
