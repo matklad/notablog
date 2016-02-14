@@ -1,5 +1,10 @@
 # This is not a blog
 
+## Mon Feb 15 00:22:27 MSK 2016
+
+Errors lead to failures https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf
+
+
 ## Thu Jan 28 11:45:45 MSK 2016
 
 It dawned on me that
