@@ -1,5 +1,10 @@
 # This is not a blog
 
+## Thu Feb 25 18:09:48 MSK 2016
+
+Parsing is considered a solved problem. Unfortunately, this view is naïve, rooted in the widely believed myth that programming languages exist.
+http://cacm.acm.org/magazines/2010/2/69354-a-few-billion-lines-of-code-later/fulltext
+
 ## Mon Feb 15 00:22:27 MSK 2016
 
 Errors lead to failures https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf
