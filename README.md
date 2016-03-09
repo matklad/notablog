@@ -1,5 +1,11 @@
 # This is not a blog
 
+## Lesser known refactorings
+
+* Convert comment to function name.
+* Convert unit test to assertion.
+* Convert assertion to type error.
+
 ## Thu Feb 25 18:09:48 MSK 2016
 
 Parsing is considered a solved problem. Unfortunately, this view is naïve, rooted in the widely believed myth that programming languages exist.
