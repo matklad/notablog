@@ -1,5 +1,19 @@
 # This is not a blog
 
+## On coverage
+## Tue Mar 15 19:38:03 MSK 2016
+
+At least at the moment I prefer system and integrated tests to unit tests. You
+get what you reward, and unit tests "reward" code while system tests "reward"
+user visible functionality.
+
+So, if you can't tell what business requirement is compromised if the test fails, it
+is probably a useless test.
+
+Line coverage is meaningless, look for feature coverage.
+
+Reference: http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf
+
 ## Lesser known refactorings
 
 * Convert comment to function name.
@@ -24,7 +38,7 @@ It dawned on me that
 2. Clang is implemented in C++
 3. HotSpot is implemented in C++
 4. Python is implemented in C
-5. Ruby is implemeted in C
+5. Ruby is implemented in C
 6. V8 is implemented in C++
 7. PHP is implemented in C
 
@@ -36,7 +50,7 @@ I hope Rust will change it in several decades =)
 ## Mon Jan 11 17:43:03 MSK 2016
 
 I think one of the most compelling features of Emacs is its universal text
-user interface. And one of the main features of the interface is the absense of
+user interface. And one of the main features of the interface is the absence of
 modal dialogs. Seriously, modal dialogs kill the flow, because their placement
 is totally unpredictable.
 
