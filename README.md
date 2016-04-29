@@ -1,5 +1,22 @@
 # This is not a blog
 
+## Fri Apr 29 14:14:16 MSK 2016
+
+At this moment I believe that good code is determined by three qualities.
+
+1. Code must solve the user's problem. If you don't know what user story will
+break if you delete a particular chunk of code, delete this chunk of code, it
+does not add any value.
+
+2. Code must be simple. Programming is hard. Humans tend to make errors. There
+is no solution for this problem. The only remedy is to write obviously correct
+code. If you think SOLID, you are wrong. If you think YAGNI, it's better.
+
+3. Code must be discussed by at least to people. People like to make stupid
+mistakes, and even moreso, people like to solve the wrong problems. This is not
+the thing you can correct by beeing smarter. You need another pair of eyes and
+another perspective.
+
 ## On coverage
 ## Tue Mar 15 19:38:03 MSK 2016
 
