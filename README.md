@@ -1,5 +1,71 @@
 # This is not a blog
 
+## How to function properly?
+## Sun Dec 18 13:08:12 MSK 2016
+
+So, here is that block of code, somewhat independent and neatly separated with
+blank lines from the surrounding. Should you move it to a separate function? Not
+surprisingly, there is more than one opinion!
+
+
+The most natural thing to do is to extract a function when the block of code can
+be named. Martin Fowler is a proponent of this approach, take a look
+at [this article](http://martinfowler.com/bliki/FunctionLength.html) and
+especially at the graph at the bottom.
+
+
+However there is almost the opposite opinion as well. It comes mainly from
+the brilliant C programmers. It does not feels as natural as the first approach
+(which is basically what we are taught at school), so I'll spend a little bit
+more time explaining it.
+
+If you have a long sequential transformation of some data, then it should be
+represented as one function. Suppose you are drawing a complex scene onto the
+OpenGL context. Then, you should write just one function that deals with the
+drawing. It will be several thousand lines long, because the scene is really
+complex, and OpenGL is really wordy. And the function should be clearly
+structured. At minimum, you should use blank lines and section comments to
+delimit blocks of functionality. Better is to use `{}` blocks to make the scope
+super explicit and restrict the visibility of local variables:
+
+
+```
+void draw(opengl_context * ctx, game_world * world) {
+    { // Initialize the context
+        ...
+    }
+
+    { // Draw the background
+        ...
+    }
+
+    { // Draw the main character
+        ...
+    }
+
+    ...
+}
+```
+
+With blocks instead of helper functions, you have almost the same visibility
+guarantees, but it is much easier to reason about state changes know, because
+they are explicit and not hidden behind function calls. But it's time to shut
+up and give the word to really great programmers:
+[one](https://www.youtube.com/watch?v=JjDsP5n2kSM&feature=youtu.be&t=27m41s),
+[two](https://www.youtube.com/watch?v=443UNeGrFoM&feature=youtu.be&t=27m22s),
+[three](https://www.youtube.com/watch?v=QM1iUe6IofM&feature=youtu.be&t=37m16s).
+
+
+And now to the synthesis part! John Carmack, who once applied the giant function
+approach,
+[now advocates](http://number-none.com/blow/blog/programming/2014/09/26/carmack-on-inlined-code.html) for
+a more refined one. Specifically, apply rule one if the block of code is pure
+and free of side effects, otherwise apply rule two. The main advantage of single
+function is the explicitness of state changes. If there is no global state, then
+you don't need to think about it. To me, this approach is the most compelling,
+but maybe its just because its the most elaborate one.
+
+
 ## Fri Apr 29 14:14:16 MSK 2016
 
 At this moment I believe that good code is determined by three qualities.
