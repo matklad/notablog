@@ -1,5 +1,15 @@
 # This is not a blog
 
+## The cost of the abstraction
+## Thu Jan 12 16:41:18 MSK 2017
+
+It is astounding how many layers of useless abstractions one can create: 
+https://github.com/intellij-rust/intellij-rust/compare/db5248e628591bc91ec71379794670f90b8fa294...030e86ad95837ddc145c47d18db57a760321970b
+
+At this point at time, the code base has 1337 tests and none of them was broken
+after the refactoring.
+
+
 ## How to function properly?
 ## Sun Dec 18 13:08:12 MSK 2016
 
