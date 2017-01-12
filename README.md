@@ -4,7 +4,7 @@
 ## Thu Jan 12 16:41:18 MSK 2017
 
 It is astounding how many layers of useless abstractions one can create: 
-https://github.com/intellij-rust/intellij-rust/compare/db5248e628591bc91ec71379794670f90b8fa294...030e86ad95837ddc145c47d18db57a760321970b
+https://github.com/intellij-rust/intellij-rust/compare/db5248e628591bc91ec71379794670f90b8fa294...f0c38ff5da91aa4d84676ca719acd07454942122
 
 At this point at time, the code base has 1337 tests and none of them was broken
 after the refactoring.
